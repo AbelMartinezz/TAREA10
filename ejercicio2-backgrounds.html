@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Backgrounds en CSS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("images/resultado.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .background-color {
+            background-color: goldenrod;
+            width: 270px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            color: white;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        
+        .background-image {
+            background-image: url("images/imagen1.webp");
+            height: 300px;
+            width: 450px;
+            background-size: cover;
+            padding: 20px;
+            margin: 20px auto;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+        }
+        
+        .background-repeat {
+            background-image: url("images/imagen2.jpg");
+            background-repeat: repeat-x;
+            height: 200px;
+            width: 100%;
+            margin: 20px auto;
+        }
+        
+        .background-opacity-attachment {
+            background-image: url("images/imagen3.jpg");
+            background-attachment: fixed;
+            height: 230px;
+            width: 230px;
+            margin-left: 525px;
+            border: 2px dashed blueviolet;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+        
+        .background-position {
+            background-image: url("images/imagen4.jpg");
+            background-repeat: no-repeat;
+            background-position: left top;
+            height: 300px;
+            width: 100%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-color">
+        <p>TIPOS DE BACKGROUNDS EN CSS</p>
+    </div> 
+    <div class="background-image">
+
+    </div>
+    <div class="background-opacity-attachment">
+
+    </div>
+    <div class="background-position">
+
+    </div>
+    <div class="background-repeat">
+
+    </div>
+</body>
+</html>
